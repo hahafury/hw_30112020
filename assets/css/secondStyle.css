@@ -1,0 +1,103 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  background-color: grey;
+}
+
+.loginForm {
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20vh;
+  background-color: White;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 0px 20px;
+}
+
+.header button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+}
+
+.header button:hover {
+  cursor: pointer;
+}
+
+.header h2 {
+  padding-top: 40px;
+}
+
+.userLoginImg {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin: 0 auto;
+  top: -50px;
+  left: 0;
+  right: 0;
+  background-color: rgb(12, 155, 95);
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 1rem 0 1rem 0;
+  height: 45px;
+}
+
+form input[type="text"],
+input[type="Password"] {
+  padding-left: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0 40px 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 216, 216);
+  height: 75px;
+  border-top: 1px solid rgb(170, 167, 167);
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(24, 122, 187);
+}

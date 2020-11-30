@@ -1,0 +1,101 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  background-color: rgb(39, 38, 38);
+}
+
+.registerForm {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+  padding: 0em 2em 2em 2em;
+  background-color: rgb(245, 244, 244);
+  margin-top: 20vh;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.header div {
+  border-bottom: 1px solid black;
+  width: 50%;
+}
+
+.registerForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm form input[type="text"],
+input[type="password"] {
+  margin-top: 2rem;
+  height: 45px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 0.5px solid rgb(189, 188, 188);
+}
+
+.registerForm form input[type="text"],
+input[type="password"] {
+  padding-left: 10px;
+}
+
+.registerForm .userName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.registerForm .userName input[type="text"] {
+  width: 47%;
+}
+
+.registerForm h2 {
+  text-align: center;
+  position: relative;
+  top: 1.5rem;
+  padding: 0em 0.5em 0em 0.5em;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.registerForm p {
+  margin-top: 2em;
+  font-size: 16px;
+  color: rgb(184, 180, 180);
+}
+
+.formVerification {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.formVerification label {
+  padding-left: 10px;
+  font-size: 16px;
+  color: rgb(167, 164, 164);
+}
+
+.formVerification a {
+  color: green;
+  text-decoration: none;
+}
+
+form input[type="submit"] {
+  margin-top: 1em;
+  height: 45px;
+  background-color: rgba(8, 131, 8, 0.815);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
